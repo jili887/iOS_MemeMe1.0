@@ -57,6 +57,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         textInput.text = defaultText
         textInput.delegate = self
         textInput.defaultTextAttributes = memeTextAttributes
+        textInput.autocapitalizationType = .allCharacters
         textInput.textAlignment = .center
     }
     
